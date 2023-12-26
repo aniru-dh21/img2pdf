@@ -5,6 +5,7 @@ An online image-to-PDF converter is a website that helps you convert your images
 ## Languages/Libraries/Frameworks Used
 
 - HTML, CSS, and JavaScript
+- NodeJS and npm
 
 After downloading this project on your local system (through either forking, git pull, or git clone), navigate to the project's directory (`cd img2pdf`) on your CLI and run this command:
 ```
