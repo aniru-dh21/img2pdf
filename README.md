@@ -30,3 +30,5 @@ npm install
 ```
 set DEBUG=img2pdf:* & npm run devstart
 ```
+
+4. Once you get a success message, it means the server is already running.
