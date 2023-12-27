@@ -22,6 +22,9 @@ git clone https://github.com/aniru-dh21/img2pdf.git
 ```
 
 2. Install the dependencies using `npm` after changing the present working directory `cd img2pdf`:
+```
+npm install
+```
 
 After downloading this project on your local system (through either forking, git pull, or git clone), navigate to the project's directory (`cd img2pdf`) on your CLI and run this command:
 ```
