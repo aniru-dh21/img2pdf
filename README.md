@@ -30,8 +30,3 @@ npm install
 ```
 set DEBUG=img2pdf:* & npm run devstart
 ```
-
-After downloading this project on your local system (through either forking, git pull, or git clone), navigate to the project's directory (`cd img2pdf`) on your CLI and run this command:
-```
-set DEBUG=img2pdf:* & npm run devstart
-```
