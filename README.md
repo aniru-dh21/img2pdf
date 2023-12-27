@@ -32,3 +32,5 @@ set DEBUG=img2pdf:* & npm run devstart
 ```
 
 4. Once you get a success message, it means the server is already running.
+
+5. Open your web browser and type `http://localhost:3000/` in the search bar.
