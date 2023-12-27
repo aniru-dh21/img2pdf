@@ -36,3 +36,5 @@ set DEBUG=img2pdf:* & npm run devstart
 5. Open your web browser and type `http://localhost:3000/` in the search bar.
 
 ## Workflow of the Project
+
+1. Firstly, definr a route that returns the `index` HTML file when the root URL `/` is reached.
