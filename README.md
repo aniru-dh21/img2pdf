@@ -38,3 +38,5 @@ set DEBUG=img2pdf:* & npm run devstart
 ## Workflow of the Project
 
 1. Firstly, define a route that returns the `index` HTML file when the root URL `/` is reached.
+
+2. Within `index` HTML file, create a form that accepts only image file (png, jpg) and then send it to the server at a defined route.
