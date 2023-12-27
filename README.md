@@ -46,3 +46,5 @@ set DEBUG=img2pdf:* & npm run devstart
 4. Within the `Jade` file, it'll activate `Sortablejs` so that the user can rearrange the images before converting to PDF. There'll also be a 'convert to PDF' button which will send the address of the sorted image to the server `/pdf` route.
 
 5. When the `/pdf` route receives the images, it'll use `PDFkit` to convert the images to PDF. Then you'll send the address of the converted PDF.
+
+6. When the user clicks on the PDF link, the file will be downloaded to the user's device.
