@@ -37,4 +37,4 @@ set DEBUG=img2pdf:* & npm run devstart
 
 ## Workflow of the Project
 
-1. Firstly, definr a route that returns the `index` HTML file when the root URL `/` is reached.
+1. Firstly, define a route that returns the `index` HTML file when the root URL `/` is reached.
