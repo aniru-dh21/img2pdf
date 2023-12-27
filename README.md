@@ -12,7 +12,7 @@ An online image-to-PDF converter is a website that helps you convert your images
 - <a href="https://pugjs.org/">Jade/Pug</a>: This is a JavaScript templating engine that'll help your render the address of the uploaded images in an HTML file.
 - <a href="https://pdfkit.org/">PDFkit</a>: This a JavaScript library that we'll use to convert the images to PDF.
 - <a href="https://www.npmjs.com/package/multer">Multer</a>: This ia a Node library that'll handle the file uploads.
-- <a href="https://www.npmjs.com/package/sortablejs">Sortablejs</a>:
+- <a href="https://www.npmjs.com/package/sortablejs">Sortablejs</a>: This is a JavaScript drag-and-drop library that will be used in the frontend for rearranging our images before they are converted to PDF.
 
 After downloading this project on your local system (through either forking, git pull, or git clone), navigate to the project's directory (`cd img2pdf`) on your CLI and run this command:
 ```
