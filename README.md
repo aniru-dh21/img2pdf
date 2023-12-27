@@ -44,3 +44,5 @@ set DEBUG=img2pdf:* & npm run devstart
 3. When the server receives the images with `Multer`, it'll store them in a folder, store the address in a session store, and redirect the request to the root URL route which will render a `Jade` file containing the address of the uploading images.
 
 4. Within the `Jade` file, it'll activate `Sortablejs` so that the user can rearrange the images before converting to PDF. There'll also be a 'convert to PDF' button which will send the address of the sorted image to the server `/pdf` route.
+
+5. When the `/pdf` route receives the images, it'll use `PDFkit` to convert the images to PDF. Then you'll send the address of the converted PDF.
